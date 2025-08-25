@@ -1,5 +1,12 @@
 # 🌱 Inventario Forestal Nacional (IFN) – Proyecto Integrador
 
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Django|DFR](https://img.shields.io/badge/Backend-Django|DFR-green)
+![Postgres](https://img.shields.io/badge/DB-Postgres-blueviolet)
+![MongoDB](https://img.shields.io/badge/DB-MongoDB-brightgreen)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-black)
+![Render](https://img.shields.io/badge/Deploy-Render-lightgrey)
+
 Desarrollo de software para el Inventario Forestal Nacional (IFN) en Colombia.  
 Proyecto integrador de Ingeniería de Sistemas (semestre V – 2025).  
 El software digitaliza los formularios de campo y apoya la gestión forestal, garantizando **calidad, seguridad y trazabilidad de los datos**.
@@ -46,7 +53,14 @@ El sistema se organiza en cuatro componentes principales:
 
 ## 📂 Organización del Repositorio
 ```bash
-/frontend         # React/Next (interfaz web)
+/frontend         # React (interfaz web)
 /orchestrator     # Django DRF (API)
 /service-auth     # Django DRF + Mongo (usuarios, roles, logs)
 /service-core     # Django DRF + Postgres (lógica de negocio IFN)
+```
+---
+
+## 👥 Equipo de Desarrollo
+
+- Andrés Felipe Vargas Amaya – Estudiante
+- Silvia Nathalia Hernandez Sandoval – Estudiante
